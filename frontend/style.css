@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background-color: rgb(229, 244, 245);
+}
+button:hover {
+  color: red;
+}
+button {
+  cursor: pointer;
+}
+h1 {
+  margin-bottom: 5px;
+}

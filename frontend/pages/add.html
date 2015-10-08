@@ -1,0 +1,16 @@
+<div class="jumbotron text-center">
+  <form ng-submit="addContact()">
+    Name: <input type="text" ng-model="name">
+    Email: <input type="text" ng-model="email">
+    <button type="submit">Add Contact</button>
+  </form>
+  
+  <br>
+
+  <div ng-repeat="contact in listContacts">
+    <br>
+    <a href="/email" >Name: {{contact.name}} Email: {{contact.email}}</a>
+    <button><i class="fa fa-times-circle"></i></button>
+    <br>
+  </div>
+</div>
